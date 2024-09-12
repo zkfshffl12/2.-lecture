@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>sample</title>
+    </head>
+
+    <body>
+
+        <form action="insert.no" method="post">
+
+            <fieldset>
+                <legend>공지사항 작성하기</legend>
+
+                <label for="title">제목</label>
+                <input type="text" name="title" id="title" placeholder="제목을 입력하시오." required>
+
+                <br>
+
+                <label for="content">내용</label>
+                <textarea name="content" id="content" cols="30" rows="10" required>내용을 입력하시오.</textarea>
+
+                <br>
+
+                <label for="uploadFile">첨부파일</label>
+                <input type="file" name="uploadFile" id="uploadFile">
+
+                <br><br>
+
+                <center><input type="submit" value="작성하기"></center>
+            </fieldset>
+        </form>
+
+    </body>
+
+</html>
